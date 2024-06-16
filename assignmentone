@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Project Ideas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Welcome to My Project Ideas</h1>
+            <p>Here are some of my project ideas:</p>
+            <ul>
+                <li>Project 1: A web app for tracking personal finances.</li>
+                <li>Project 2: A mobile app for fitness tracking.</li>
+                <li>Project 3: A machine learning model for predicting stock prices.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Filter Projects</h2>
+            <input type="text" id="filterInput" placeholder="Type to filter projects...">
+            <ul id="projectList">
+                <li>Web app for tracking personal finances</li>
+                <li>Mobile app for fitness tracking</li>
+                <li>Machine learning model for predicting stock prices</li>
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>About Me</h1>
+            <p>Hello! I am [Your Name], a web developer with a passion for creating innovative web applications. I love learning new technologies and applying them to solve real-world problems.</p>
+        </section>
+    </main>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin:
